@@ -22,16 +22,16 @@ class AppButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(
           vertical: 15,
         ),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(17),
+        ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.menu),
             Icon(Icons.person)
           ],
-        ),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(17),
         ),
       ),
     );

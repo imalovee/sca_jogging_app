@@ -8,4 +8,5 @@ class AppAssets{
      static const String trophy = "${_svgBase}trophy.svg";
      static const String mapPng = "${_imgBase}map.png"; 
    static const String map_1Png = "${_imgBase}map_1.png";   
+   static const String activityPng = "${_imgBase}activity.png";
 }

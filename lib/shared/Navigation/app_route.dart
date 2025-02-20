@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:jogging_app/features/screans/activity_screen.dart';
 import 'package:jogging_app/features/screans/home_screen.dart';
 import 'package:jogging_app/features/screans/profle_screen.dart';

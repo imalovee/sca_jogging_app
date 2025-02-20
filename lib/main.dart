@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:jogging_app/features/screans/home_screen.dart';
 import 'package:jogging_app/shared/Navigation/app_route.dart';
 import 'package:jogging_app/shared/Navigation/app_route_strings.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
       onGenerateRoute: AppRoute.onGenerateRoute,
       navigatorKey: AppRoute.navkey,
-      initialRoute: AppRouteStrings.homeScreen,
+      initialRoute: AppRouteStrings.activityScreen,
     );
         }
     );
